@@ -18,7 +18,7 @@ body {
 
 .left {
     width: 50%;
-    background-color: #3A3353;
+    background-color: #352D50;
 
     position: relative;
     padding: 60px 25px;
@@ -29,7 +29,7 @@ body {
 
 .right {
     width: 50%;
-    background: linear-gradient(180deg, #2C1F5A 0%, #000000 100%);
+    background: linear-gradient(180deg, #2C1F5A 0%, #0A051C 100%);
 }
 
 .home-icon {
