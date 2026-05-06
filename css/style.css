@@ -1,3 +1,4 @@
+
 body{
     min-height: 100vh;
     margin: 0;
@@ -14,6 +15,7 @@ body{
     display: inline-block;
     list-style: none;
 }
+
 a{
     font-size: 16px;
     color: #fff;
@@ -72,6 +74,7 @@ a:hover{
     text-decoration: none;
     font-weight: 600;
 }
+
 strong{
     color: #6750A4;   
 }
