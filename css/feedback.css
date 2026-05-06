@@ -1,145 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
+ 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 body {
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, #2C1F5A 0%, #0A051C 100%);
 }
-
+ 
 .container {
     display: flex;
     height: 100vh;
 }
-
+ 
 .left {
     width: 50%;
     background-color: #352D50;
-
+ 
     position: relative;
     padding: 60px 25px;
-
+ 
     display: flex;
     flex-direction: column;
 }
-
-.right {
-    width: 50%;
-    background: linear-gradient(180deg, #2C1F5A 0%, #0A051C 100%);
-}
-
+ 
 .home-icon {
     position: absolute;
     top: 25px;
     left: 25px;
-
+ 
     width: 48px;
     height: 48px;
-
+ 
     display: flex;
     align-items: center;
     justify-content: center;
-
+ 
     background-color: rgba(255,255,255,0.04);
-
+ 
     border: 2px solid rgba(255,255,255,0.35);
-
+ 
     border-radius: 50%;
-
+ 
     color: #EAEAF5;
     font-size: 22px;
     text-decoration: none;
 }
-
+ 
 h1 {
     margin-top: 50px;
     margin-bottom: 60px;
-
+ 
     width: 100%;
     max-width: 1000px;
-
-    font-size: 63px;
+ 
+    font-size: 40px;
     font-weight: 500;
     line-height: 54px;
-
+ 
     color: #EAEAF5;
 }
-
+ 
 h1 span {
     color: #7F37D2;
 }
-
+ 
 .form {
     display: flex;
     flex-direction: column;
     gap: 48px;
-
+ 
     margin-left: 12px;
 }
-
+ 
 input,
 textarea {
     width: 100%;
     max-width: 650px;
-
+ 
     padding: 20px;
-
+ 
     border: none;
     border-radius: 16px;
-
+ 
     background-color: #4A4266;
     color: #fff;
-
+ 
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
-
+ 
     outline: none;
 }
-
+ 
 input::placeholder,
 textarea::placeholder {
     color: #B9B6C9;
 }
-
+ 
 textarea {
     height: 190px;
     resize: none;
 }
-
+ 
 .botao-enviar {
     margin-top: auto;
-
+ 
     align-self: flex-start;
-
+ 
     margin-left: 65%;
-
+ 
     width: 140px;
     height: 50px;
-
+ 
     background-color: #6750A4;
     color: #CAC4D0;
-
+ 
     border-radius: 50px;
     text-decoration: none;
-
+    border: none;
+ 
     display: flex;
     align-items: center;
     justify-content: center;
-
+ 
     font-size: 15px;
     font-weight: 500;
-
+ 
     cursor: pointer;
 }
-
+ 
 .botao-enviar:hover {
     filter: brightness(1.1);
 }
-
+ 
 .botao-enviar:active {
     transform: scale(0.96);
 }
