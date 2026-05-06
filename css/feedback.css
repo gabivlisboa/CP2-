@@ -140,3 +140,11 @@ textarea {
 .botao-enviar:active {
     transform: scale(0.96);
 }
+input:focus,
+textarea:focus{
+    background-color:#6750A4 ; 
+}
+input:invalid,
+textarea:invalid{
+    border: solid 1px red;
+}

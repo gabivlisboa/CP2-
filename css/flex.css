@@ -39,7 +39,7 @@
 }
 
 /* Estilo do preço dentro do box */
-.box-preco {
+.box-txt {
     margin: 40px 25px 18px 0;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
@@ -60,11 +60,11 @@
 }
 
 /* Efeito hover no botão */
-.box-botao:focus {
+.box-botao:hover {
     background-color: #7e5fb8;
 }
 
-#modelo-5{
+.modelo-5{
     display: flex;
     align-items: stretch;
     gap: 30px;
@@ -92,7 +92,7 @@
     align-items: stretch
 }
 
-#compra {
+.compra {
     position: relative;
      margin-top: 20px
 }

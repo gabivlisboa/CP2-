@@ -85,3 +85,7 @@ footer{
     padding: 20px 0;
     margin-top: 196px;
 }
+::selection{
+    background-color: #6750A4;
+    color: #fff;
+}
