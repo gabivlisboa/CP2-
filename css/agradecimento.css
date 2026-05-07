@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(180deg, #2C1F5A 0%, #0A051C 100%);
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
