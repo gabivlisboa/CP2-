@@ -98,3 +98,38 @@ footer{
     background-color: #6750A4;
     color: #fff;
 }
+.contato {
+  margin-top: 250px;
+  text-align: center;
+}
+
+.contato-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 25px;
+}
+
+.contato-item {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Aproxima o ícone do texto */
+}
+
+.contato-item i {
+  color: #6750A4;
+  font-size: 24px;
+  margin: 0;
+}
+
+.contato-item p,a {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+
+}
+.contato-item p:hover {
+  color: #6750A4;
+}
+
